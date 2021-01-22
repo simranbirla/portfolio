@@ -11,19 +11,15 @@
     <header>
       <a href="#home"><p id="home" style="color: #02233c;font-weight: 700;">Home</p></a>
       <a href="#about"><p>About</p></a>
-      <a href="./blogs.html"><p>Blogs</p></a>
-      <a href="./projects.html"><p>Projects</p></a>
+      <a href="#blogs"><p>Blogs</p></a>
+      <a href="#projects"><p>Projects</p></a>
       <a href="#footer"> <p>Let's talk</p></a>
     </header>
-    <div id="home">
-        <div class="outer">
-        <div class="dark"></div>
-        <div class="light"></div>
-    </div>
+    <div id="home" class="home">
         <div class="intro">
         <h3>Namaste I'm</h3>
         <h1>Simran <span class="dev">Birla</span></h1>
-        <p>Designing <span>and</span> <span class="dev">Developing</span>  <span>Web</span></p>
+        <p>Designing and Developing <span>Web</span>.</p>
     </div>
     <div class="circle">
         <div class="circle-inner"></div>
@@ -32,33 +28,79 @@
 
     <div id="about">
         <h2>About me </h2>
-        <div id="about_main">
+        <div class="about_main">
         <div class="about-img">
         <img src="photo2.jpeg" alt="simran birla" />
         </div>
     <div class="about-text">
         Hey, I am 4th year Engineering student. I am studying Computer science and engineering.I am hardworking and eager to learn new things.
-I have been told that I am very articulate.
+I have been told that I am very articulate.</br>
         
-I have worked on ReactJS.I like to create visually beautiful design.I also have interest in network security.
-
+I have worked on ReactJS.I like to create visually beautiful design.I also have interest in network security.  </br>I am familiar with HTML5, CSS , Javascript , ReactJS , web hosting.I have also used google's firebase as a database in many projects.
 My hobbies including watching movies and Tv shows. And I also I am foodie.
 
 </div>
     </div>
     </div>
-    <div class="display">
-        <h2>Technologies</h2>
-        <p style="font-size:22px">I am familiar with HTML5, CSS , Javascript , ReactJS , web hosting</p>
-    </div>
-    <div class="display">
-        <h2>Blogs</h2>
-       <a href="./blogs.html"> <button class="btn">View Blogs</button></a>
-    </div>
-    <div class="display">
+     <div id="projects">
         <h2>Projects</h2>
-       <a href="./projects.html"> <button class="btn">View Projects</button></a>
-    </div>
+       <div class="project">
+           <img src="./pinclone.png" alt="pinterest clone"  >
+           <div class="text">
+           <p>This is a clone to the social media site pinterest.With this you can comment on any photo , like any photo and also save a photo .You can create ypur own personalized board </p>
+           <div class="buttons">
+            <a href="https://pin-clone-39acf.web.app/" class="demo">Demo</a>
+             <a href="https://github.com/simranbirla/pin-clone"><i class="fab fa-github"></i> Github</a>
+           </div>
+            </div>
+          
+       </div>
+       <div class="project">
+        <img src="./meme.png" alt="Meme generator"  >
+        <div class="text">
+        <p>Who doesn't love memes.With this app you can create your own memes.Save them or download them to yout device.Not only that you can even share them only social media you want</p>
+        <div class="buttons">
+            <a href="https://memegene.netlify.app/" class="demo">Demo</a>
+          <a href="https://github.com/simranbirla/meme-gen"><i class="fab fa-github"></i> Github</a>
+        </div>
+        </div>
+       
+       </div>
+       <div class="project">
+        <img src="./quizapp.png" alt="Quiz Ap"  >
+
+        <div class="text">
+        <p>As the name suggests it is a quiz app.You can take a quiz from the 5 subjects mentioned.Admin also has the functionality to add a question to a particular subject.The scores of participants are stored in local storage so admin can access th score too.To enter through admin just type admin in login </p>
+       <div class="buttons">
+        <a href="https://quizwebapp.netlify.app/" class="demo">Demo</a>
+          <a href="https://github.com/simranbirla/quizz"><i class="fab fa-github"></i> Github</a>
+        </div>
+        </div>
+       
+       </div>
+     </div>
+     
+     <div id="blogs">
+         <h2>Blogs</h2>
+         <div class="blogs-contain">
+            <div class="blog">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYFyr-kwkJ69NTkUStpm4pWRUeMQ9d6eLD2Q&usqp=CAU" alt="react rendering" >
+                     <h3>React Rendering and re-rendering</h3>
+                    <a href="https://dev.to/simranbirla/react-rendering-and-re-rendering-1l3m" >Read</a>
+                </div>
+            <div  class="blog">
+                <img src="https://soshace.com/wp-content/uploads/2020/10/789-png.png" alt="axios and Fetch">
+                <h3>Axios vs Fetch</h3>
+                <a href="https://dev.to/simranbirla/axios-js-vs-fetch-api-1pib">Read</a>
+            </div>
+
+            <div class="blog">
+              <img src="https://2.bp.blogspot.com/-peQpWmIWRcI/XNZ1UfQ8RlI/AAAAAAAAN9k/TZZb3Fhb-pAoqyZ0SZjzPegRPnqOdgfhACEwYBhgL/w1200-h630-p-k-no-nu/Git%2BStarted%2Bwith%2BGithub%2Bby%2BJason%2BTaylor.png" alt="git merges and branches" >
+              <h3>Git Merges and Conflicts</h3>
+              <a href="https://dev.to/simranbirla/git-merges-and-conflicts-3m70">Read</a>
+            </div>
+         </div>
+     </div>
     <footer id="footer">
         <div>
             <a href="https://www.linkedin.com/in/simran-birla-31b3901a4/"><i class="fab fa-linkedin-in"></i></a>
