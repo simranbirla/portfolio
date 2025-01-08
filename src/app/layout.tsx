@@ -5,6 +5,7 @@ import "./globals.css";
 import { DATA } from "@/data/resume";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import { TooltipProvider } from "@/components/ui/Tooltip";
+import Navbar from "@/components/Navbar";
 
 const fontSans = FontSans({
   subsets: ["latin"],
@@ -52,9 +53,10 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
-        <ThemeProvider defaultTheme="light" attribute="class">
+        <ThemeProvider attribute="class" defaultTheme="light">
           <TooltipProvider delayDuration={0}>
             {children}
+            <Navbar />
           </TooltipProvider>
         </ThemeProvider>
       </body>

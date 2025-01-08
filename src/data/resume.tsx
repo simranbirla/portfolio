@@ -25,7 +25,6 @@ export const DATA = {
     ],
     navbar: [
         { href: "/", icon: HomeIcon, label: "Home" },
-        { href: "/blog", icon: NotebookIcon, label: "Blog" },
     ],
     contact: {
         email: "ssbirla01@gmail.com",
@@ -35,6 +34,12 @@ export const DATA = {
                 name: "GitHub",
                 url: "https://github.com/simranbirla",
                 icon: Icons.github,
+                navbar: true,
+            },
+            Dev: {
+                name: "Dev",
+                url: "https://dev.to/simranbirla",
+                icon: NotebookIcon,
                 navbar: true,
             },
             LinkedIn: {
