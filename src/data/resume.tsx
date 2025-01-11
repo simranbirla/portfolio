@@ -9,7 +9,7 @@ export const DATA = {
     location: "Kalyan, Mumbai ,India",
     locationLink: "https://maps.app.goo.gl/7YgNCRYXREzb1Bcw5",
     description:
-        "Full-Stack Developer with 4 years of experience specializing in Javascript techstack. Proven ability to build scalable web solutions and deliver impactful projects",
+        "Full-Stack Developer with 3+ years of experience specializing in Javascript techstack. Proven ability to build scalable web solutions and deliver impactful projects",
     summary:
         "I started out as a frontend developer who used to work with React.js then I got the opportunity to do backend work and that transitioned me into full stack developer. I like getting know the business of a company and provide technical solutions tailored to that particular problem. I like working with various technologies and have worked in  different sectors such as edtech, ecommerce and industry 4.0",
     skills: [
@@ -88,7 +88,7 @@ export const DATA = {
             badges: [],
             location: "Mumbai, India",
             title: "Software Engineer - Intern",
-            logoUrl: "/hwsaver.png",
+            logoUrl: "/hwsaver.jpeg",
             start: "October 2020",
             end: "March 2021",
             description:
@@ -108,126 +108,65 @@ export const DATA = {
     ],
     projects: [
         {
-            title: "Chat Collect",
-            href: "https://chatcollect.com",
-            dates: "Jan 2024 - Feb 2024",
+            title: "Pinterest Clone",
+            dates: "",
+            href: "https://pin-clone-39acf.web.app/",
+
             active: true,
             description:
-                "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+                "I wanted to replicate the UI of pintrest board where the images takes up space according to their resolution. Along with that firebase storage was used to store the custom board somebody would create.",
             technologies: [
-                "Next.js",
-                "Typescript",
-                "PostgreSQL",
-                "Prisma",
-                "TailwindCSS",
-                "Stripe",
-                "Shadcn UI",
-                "Magic UI",
+                "React.js",
+                "Javascript",
+                "Firebase",
+                "Unsplash API",
+                "Redux",
             ],
             links: [
                 {
                     type: "Website",
-                    href: "https://chatcollect.com",
-                    icon: <Icons.globe className="size-3" />,
-                },
-            ],
-            image: "",
-            video:
-                "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
-        },
-        {
-            title: "Magic UI",
-            href: "https://magicui.design",
-            dates: "June 2023 - Present",
-            active: true,
-            description:
-                "Designed, developed and sold animated UI components for developers.",
-            technologies: [
-                "Next.js",
-                "Typescript",
-                "PostgreSQL",
-                "Prisma",
-                "TailwindCSS",
-                "Stripe",
-                "Shadcn UI",
-                "Magic UI",
-            ],
-            links: [
-                {
-                    type: "Website",
-                    href: "https://magicui.design",
+                    href: "https://pin-clone-39acf.web.app/",
                     icon: <Icons.globe className="size-3" />,
                 },
                 {
                     type: "Source",
-                    href: "https://github.com/magicuidesign/magicui",
-                    icon: <Icons.github className="size-3" />,
-                },
+                    href: "https://github.com/simranbirla/pin-clone",
+                    icon: <Icons.github className="size-3" />
+                }
             ],
-            image: "",
-            video: "https://cdn.magicui.design/bento-grid.mp4",
+            image: "/pin-clone.png",
+            video: ""
+
         },
         {
-            title: "llm.report",
-            href: "https://llm.report",
-            dates: "April 2023 - September 2023",
-            active: true,
+            title: "Meme Generator",
+            href: "https://memegene.netlify.app/",
+            dates: "",
+            active: false,
             description:
-                "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+                "This application helped create memes for people or edit images.",
             technologies: [
-                "Next.js",
-                "Typescript",
-                "PostgreSQL",
-                "Prisma",
-                "TailwindCSS",
-                "Shadcn UI",
-                "Magic UI",
-                "Stripe",
-                "Cloudflare Workers",
+                "React.js",
+                "Javascript",
+                "Canvas API",
+                "Firebase storage",
+                "Google Login",
+                "Redux",
             ],
             links: [
                 {
                     type: "Website",
-                    href: "https://llm.report",
+                    href: "https://memegene.netlify.app",
                     icon: <Icons.globe className="size-3" />,
                 },
                 {
                     type: "Source",
-                    href: "https://github.com/dillionverma/llm.report",
+                    href: "https://github.com/simranbirla/meme-gen",
                     icon: <Icons.github className="size-3" />,
                 },
             ],
-            image: "",
-            video: "https://cdn.llm.report/openai-demo.mp4",
-        },
-        {
-            title: "Automatic Chat",
-            href: "https://automatic.chat",
-            dates: "April 2023 - March 2024",
-            active: true,
-            description:
-                "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-            technologies: [
-                "Next.js",
-                "Typescript",
-                "PostgreSQL",
-                "Prisma",
-                "TailwindCSS",
-                "Shadcn UI",
-                "Magic UI",
-                "Stripe",
-                "Cloudflare Workers",
-            ],
-            links: [
-                {
-                    type: "Website",
-                    href: "https://automatic.chat",
-                    icon: <Icons.globe className="size-3" />,
-                },
-            ],
-            image: "",
-            video:
-                "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+            image: "/meme.gif",
+            video: "",
         },
     ],
 } as const;
