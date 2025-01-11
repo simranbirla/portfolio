@@ -3,6 +3,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
     name: "Simran Birla",
+    avatarUrl: "/avatar.jpeg",
     initials: "",
     url: "https://simranbirla.netlify.app/",
     location: "Kalyan, Mumbai ,India",
