@@ -69,7 +69,7 @@ export const DATA = {
             start: "July 2023",
             end: "Sept 2024",
             description:
-                "Developed a work item builder for the manufacturing industry,using technologies like ReactJS and Nodejs which enhanced operational efficiency resulting in a 30% reduction in manual data entry errors.",
+                "Developed a work item builder for the manufacturing industry,using technologies like ReactJS and Nodejs which enhanced operational efficiency resulting in a 30% reduction in manual data entry errors.Developed a data visualization project that displayed efficiency and performance metrics for a factory production lines, using ChartJS library in ReactJS; enabled real-time monitoring and analysis of production data from Cognite Fusion Database which was updated every 10 minutes, leading to a 20% increase in operational efficiency.Proposed solutions for automating the company's invoicing process utilizing technologies such as NextJS and PostgreSQL, it also tracked the proposed solutions given to a client",
         },
         {
             company: "Vertrical Gmbh",
@@ -80,7 +80,7 @@ export const DATA = {
             logoUrl: "/vertrical.png",
             start: "March 2021",
             end: "Feb 2023",
-            description: "Collaborated with a team to develop and enhance the payment section of a health e-commerce site which could accept payment from multiple cards, ensuring secure and efficient transaction processing using technologies such as Gatsby, NestJs, and Stripe API"
+            description: "Collaborated with a team to develop and enhance the payment section of a health e-commerce site which could accept payment from multiple cards, ensuring secure and efficient transaction processing using technologies such as Gatsby, NestJs, and Stripe API.Designed reusable and reliable components in React for an internal component library to be used in the project, decreased the development time and codebase size while enhancing code consistency.Collaborated in a team to develop the backend for an early-stage internal project aimed at creating a Shopify- like platform for medicines, utilizing microservice architecture to ensure scalability and flexibility"
         },
         {
             company: "HW Saver",
@@ -92,7 +92,7 @@ export const DATA = {
             start: "October 2020",
             end: "March 2021",
             description:
-                "Worked on developing a math problem solver page, coding the functionality to send and parse data using the LaTeX library for accurate mathematical notation rendering using the latex and mathjs packages in ReactJS and Python in the backend",
+                "Worked on developing a math problem solver page, coding the functionality to send and parse data using the LaTeX library for accurate mathematical notation rendering using the latex and mathjs packages in ReactJS and Python in the backend.Enhanced user engagement by designing intuitive UI components and solving real-time data problems using ReactJS",
         },
 
     ],

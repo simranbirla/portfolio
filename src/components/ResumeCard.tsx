@@ -29,7 +29,7 @@ export const ResumeCard = ({
     period,
     description,
 }: ResumeCardProps) => {
-    const [isExpanded, setIsExpanded] = React.useState(false);
+    const [isExpanded, setIsExpanded] = React.useState(true);
 
     const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
         if (description) {
@@ -100,7 +100,9 @@ export const ResumeCard = ({
                             }}
                             className="mt-2 text-xs sm:text-sm"
                         >
-                            {description}
+                            <ul className="list-disc">
+                                {description.split('.').map(desc => <li>{desc}.</li>)}
+                            </ul>
                         </motion.div>
                     )}
                 </div>
